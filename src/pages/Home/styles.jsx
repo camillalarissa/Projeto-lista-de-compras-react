@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const AddButton = styled.button`
-    background:rgb(161, 41, 41);
+    background:#D29226;
     color: white;
     width: 100px;
     height: 35px;
@@ -21,15 +21,17 @@ export const AddButton = styled.button`
 
 `
 export const Container = styled.div`
-background:#ffff ;
+background:#663332 ;
 border-radius: 10px;
 padding: 30px;
-//height:100vh;
+height:50vh;
 width: 600px;
+opacity: 0.8;
+
 
 
 h1{
-    color: #a12929;
+    color:#ffff;
     font-size: 40px;
    text-align: center;
   
@@ -42,8 +44,8 @@ input{
     border-radius: 5px;
     border: none;
     padding-left: 10px;
-    background: #f59595;
-    color: #a12929;
+    background: #fff;
+    color:black ;
     width: 400px;
 }
 
@@ -53,11 +55,12 @@ export const Product = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 40px;
-  color: #a12929;
-  background: #f59595;
+  color: black;
+  background:#D29226;
   border-radius: 5px;
   margin-top: 15px;
   padding:  0 10px;
+  width:400px;
 
 
   p{

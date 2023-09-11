@@ -6,7 +6,7 @@
 }
 
 body{
-  background: #E2E0E2;
+  background:url(assets/back.avif);
 display: flex;
 align-items: center;
 justify-content: center;
